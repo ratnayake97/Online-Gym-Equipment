@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Times New Roman';
+    font-style: white;
+    font-size: large;
+}
+
+h3 {
+    font-family: serif;
+    color: blanchedalmond
+}
+
+.align {
+    text-align: center;
+}

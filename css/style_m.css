@@ -1,0 +1,395 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/train.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg {
+    background-image: url("../images/train.jpg");
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li a:hover {
+    border: 1px solid lightgreen;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body {
+    font-family: monospace;
+}
+
+.style_t {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+    align-content: stretch;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+#hoverSide a {
+    left: -60px;
+    transition: 0.2s;
+    width: 100px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: serif;
+    text-decoration: initial;
+    border-radius: 0 6px 6px 0;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+#hoverSide a:hover {
+    left: 0;
+}
+
+#MYProg {
+    background-color: red;
+    top: 20px;
+}
+
+#MYBill {
+    background-color: rgb(5, 56, 7);
+    top: 80px;
+}
+
+#MYOrders {
+    background-color: rgb(146, 13, 64);
+    top: 140px;
+}
+
+#MYDiet {
+    background-color: rgb(65, 4, 65);
+    top: 200px;
+}
+
+#MYShedule {
+    background-color: rgb(11, 3, 37);
+    top: 260px;
+}
+
+#slides {
+    display: flex;
+    text-align: left;
+}
+
+#LowerSlide {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+#formAligns {
+    text-align: center;
+}
+
+#imgW {
+    text-align: right;
+}
+
+
+/*open button*/
+
+.searchButton {
+    width: 35%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: serif;
+    align-content: center;
+}
+
+.searchButton:hover {
+    background: rgb(133, 9, 9);
+}
+
+.cpp {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(20, 18, 1);
+}
+
+
+/*close button*/
+
+.cpp .cpp1 {
+    top: 23px;
+    position: absolute;
+    font-size: 70px;
+    right: 50px;
+    color: black;
+    cursor: pointer;
+}
+
+.cpp-body {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    width: 75%;
+    top: 40%;
+}
+
+.cpp.cpp1:hover {
+    color: blueviolet;
+}
+
+.cpp button {
+    width: 30%;
+    float: left;
+    background: rgb(49, 12, 116);
+    padding: 12px;
+    border: rgb(218, 233, 232);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cpp button:hover {
+    background: #bbb;
+}
+
+.cpp input[type=text] {
+    font-size: 20px;
+    border: lightseagreen;
+    float: left;
+    width: 85%;
+    background: white;
+    padding: 15px;
+}
+
+.cpp input[type=text]:hover {
+    background: wheat;
+}
+
+
+/*Add styles for signout and 'add account' button*/
+
+.editt {
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: serif;
+}
+
+
+/*Drop down bar*/
+
+.dropdown {
+    width: 200px;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: plum;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.dropdown a,
+.sidenav-btn {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 8px 6px 16px;
+    color: red;
+    border: none;
+    display: block;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+}
+
+.dropdown a:hover,
+.sidenav-btn:hover {
+    color: #f1f1f1;
+}
+
+.body {
+    margin-left: 200px;
+    font-size: 20px;
+    padding:
+}
+
+.action {
+    background-color: rgb(5, 56, 7);
+    color: seashell;
+}
+
+.sideNav-cont {
+    padding-left: 8px;
+    display: none;
+    background-color: springgreen;
+}
+
+.fa-caret-down {
+    padding-right: 8px;
+    float: right;
+}
+
+@media screen and (max-height:450px) {
+    .dropdown {
+        padding-top: 15px;
+    }
+    .dropdown a {
+        font-size: 18pxs;
+    }
+    .kl {
+        text-align: right;
+    }
+}
+
+
+/*account details fieldset*/
+
+.fieldset_1 {
+    background-image: url("../images/IMG_7317.JPG");
+    padding: 5px;
+}
+
+
+/*clothing fieldset*/
+
+.fieldset_2 {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.table_a {
+    text-align: right;
+}
+
+#PP {
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    font: outline;
+}
+
+
+/*chat box*/
+
+.openbtn {
+    background-color: wheat;
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+.Popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.cont-msg {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.cont-msg .BTN {
+    background-color: #29053a;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.cont-msg .BTN-Cl {
+    background-color: rgb(0, 153, 255);
+}
+
+.cont-msg .BTN:hover,
+.openbtn:hover {
+    opacity: 1;
+}

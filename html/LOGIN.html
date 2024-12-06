@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="../css/style_log.css">
+    <script src="../js/script_login.js"></script>
+
+</head>
+
+<body>
+
+
+    <h2 style="color: #f1f1f1; text-align: center;">WELCOME TO OUR EASY FITNESS LOG IN PAGE
+        <h2>
+            <style>
+                h3 {
+                    color: #f1f1f1;
+                }
+            </style>
+
+
+            <h3 style="text-align: center;">Login with Social media or your account </h3>
+
+            <body background="../images/lg.jpeg">
+
+                <center>
+                    <fieldset style="text-align: center; width: 70%; background-image: url(../images/dark.jpg);">
+
+                        <img src="../images/up.png" style="width: 30%;">
+
+
+                        <form class="simple form" action=" results.html" target="self" method="POST" spellcheck="false" onsubmit="return"><br>
+                            <label style="color: #f1f1f1;">User Name:</label><br><br>
+                            <input type="text" id="uname" name="uname" style="width:100px;" placeholder=" User Name" required><br><br>
+                            <label style="color: #f1f1f1;">Password</label><br><br>
+                            <input type="text" id="Password" name="Password" style="width:100px;" placeholder="******" required><br><br>
+                            <input type="check box" id="Remember me" style="width: 10px;" name="Remeber me"> <label style="color: #f1f1f1;">Remember me </lable><br><br>
+                        <input type="submit" id="LOG IN" name="LOG IN" style="width:100px; color: Red " value="LOG IN " />
+                        <button><a href="homepage.html">Cancel</a></button>
+
+        
+        </form>
+    </fieldset>
+ </center>
+	<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.open-button {
+  background-color: brown;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid ;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color:white;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: black;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+<button class="open-button " onclick="openForm() ">Chat with Us!</button>
+
+<div class="chat-popup " id="myForm ">
+  <form action="/action_page.php " class="form-container ">
+    <h1>Chat</h1>
+
+    <label for="message "><b>Type Message Here</b></label>
+                            <textarea placeholder="Type message.. " name="message " required></textarea>
+
+                            <button type="submit " class="btn ">Send</button>
+                            <button type="button " class="btn cancel " onclick="closeForm() ">Close</button>
+                        </form>
+                        </div>
+
+
+            </body>
+
+</html>
